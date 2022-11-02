@@ -57,7 +57,7 @@ repository_metadata:
   # note, use double space for a line break
   keywords: [synchrotron diffraction, ti64, crystallographic texture]
   upload_type: dataset # note, lower case
-  # choose from Publication, Poster, Presentation, Dataset, Image, Video/Audio, Software, Lesson, Physical object, Workflow, Other
+  # choose from publication, poster, presentation, dataset, image, video/audio, software, lesson, physical object, workflow, other
   creators:
   - name: Daniel, Christopher Stuart # note, family name, given names format
     affiliation: The University of Manchester
@@ -72,7 +72,7 @@ repository_metadata:
   #   affiliation: The Univeristy of Manchester
   #   orcid: 0000-0001-6063-8135
   access_right: open # note, lower case
-  # choose from Open, Embargoed, Restricted, Closed
+  # choose from open, embargoed, restricted, closed
   license: CC-BY-4.0
   # communities: 
   # - identifier: lightform #<-- TEMP lightform community not set up on sandbox!
