@@ -1,0 +1,9 @@
+pathlib
+tqdm
+jupyter
+pyyaml
+PyQt5~=5.15.6
+pytest
+PyYaml>=5.1
+jsonschema
+requests

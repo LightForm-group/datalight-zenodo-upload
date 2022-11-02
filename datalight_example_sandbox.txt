@@ -1,0 +1,2 @@
+[sandbox.zenodo.org]
+token = <<insert token here>>

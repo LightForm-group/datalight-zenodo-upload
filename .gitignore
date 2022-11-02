@@ -1,0 +1,10 @@
+._.DS_Store
+._*
+.DS*
+__pycache__/
+.ipynb_checkpoints/
+/venv
+/.idea
+datalight_sandbox.txt
+datalight.txt
+

@@ -1,0 +1,80 @@
+config_path: "datalight.txt"
+deposit_ID: 7270710
+# set to False for new upload
+file_paths:
+  - ../../SXRD_upload/diamond_2021/material_data.zip  
+  - ../../SXRD_upload/diamond_2021/material_metadata.yaml
+  - ../../SXRD_upload/diamond_2021/rawdata_1.zip
+  - ../../SXRD_upload/diamond_2021/rawdata_2.zip
+  - ../../SXRD_upload/diamond_2021/rawdata_3.zip
+  - ../../SXRD_upload/diamond_2021/rawdata_4.zip
+  - ../../SXRD_upload/diamond_2021/rawdata_5.zip
+  - ../../SXRD_upload/diamond_2021/rawdata_6.zip
+  - ../../SXRD_upload/diamond_2021/rawdata_7.zip
+  - ../../SXRD_upload/diamond_2021/rawdata_calibration.zip
+  - ../../SXRD_upload/diamond_2021/rawdata_energy.zip
+  - ../../SXRD_upload/diamond_2021/sxrd_metadata_1.yaml
+  - ../../SXRD_upload/diamond_2021/sxrd_metadata_2.yaml
+  - ../../SXRD_upload/diamond_2021/sxrd_metadata_3.yaml
+  - ../../SXRD_upload/diamond_2021/sxrd_metadata_4.yaml
+  - ../../SXRD_upload/diamond_2021/sxrd_metadata_5.yaml
+  - ../../SXRD_upload/diamond_2021/sxrd_metadata_6.yaml
+  - ../../SXRD_upload/diamond_2021/sxrd_metadata_7.yaml
+  - ../../SXRD_upload/diamond_2021/READ_ME.pdf
+
+repository_metadata:
+  title: Synchrotron X-ray Diffraction Dataset - Measuring Bulk Crystallographic Texture from Differently-Orientated Ti-6Al-4V Samples
+  description: "A dataset of raw synchrotron X-ray diffraction (SXRD) images, recording crystallographic texture from two different pre-processed 
+    Ti-6Al-4V (Ti-64) materials, analysing six differently orientated samples from each material. The aim of the work was to provide a 
+    large dataset for testing and improving crystallographic texture refinement software from SXRD patterns.
+
+
+    Prior to the experiment, the Ti-64 materials had been pre-rolled and then air-cooled to develop the microstructure, rolling to 50% and 
+    87.5% reduction at 915ºC using a rolling mill at The University of Manchester. Rectangular samples (2 mm thick) were then machined from 
+    these rolled blocks. The samples were cut along different directions, three samples along different orthogonal rolling directions, and 
+    three at different angles to the rolling directions. The samples are referenced according to alignment of the rolling directions (RD – 
+    rolling direction, TD – transverse direction, ND – normal direction) with the long horizontal (X) axis and short vertical (Y) axis of the 
+    rectangular specimens. Data was recorded using a high energy 99.8 keV synchrotron X-ray beam and a 5 second exposure at the detector. The 
+    slits were adjusted to give a 0.5 x 0.5 mm beam area, chosen to optimally resolve both the alpha (hexagonal close packed, hcp) and beta 
+    (body-centred cubic, bcc) phase peaks. The SXRD data was recorded across each of the specimens by stage-scanning the beam in sequential 
+    X-Y positions at 0.5 mm increments, forming a rectangular grid of measurement points across each sample. A powder Ti-64 sample was also 
+    measured as a random texture standard.
+  
+
+    As well as the main experiment, 3 samples (sample 1, 2 and 3) were held together in different orders (1, 2, 3 ; 2, 1, 3 ; 2, 3, 1) and 
+    analysed through-thickness, to measure how beam attenuation might affect the bulk texture measurement. In addition, different detector 
+    exposure times (1 to 0.04 seconds) were also tested to analyse the impact of exposure time on overall intensity, to see how well the 
+    alpha and beta peaks could be resolved from background noise at very fast acquisition frequencies.
+
+
+    The raw data is in the form of synchrotron diffraction pattern images which has been separated according to experiment type. An accompanying 
+    YAML text file contains associated beamline metadata for each measurement. Further details of the experimental setup can be found in a 
+    pdf document.
+  
+
+    The material data folder contains further details of the material and sample orientations, including an electron backscatter diffraction (EBSD) 
+    map that can be used to verify the crystallographic texture."
+  # note, use double space for a line break
+  keywords: [synchrotron diffraction, ti64, crystallographic texture]
+  upload_type: dataset # note, lower case
+  # choose from Publication, Poster, Presentation, Dataset, Image, Video/Audio, Software, Lesson, Physical object, Workflow, Other
+  creators:
+  - name: Daniel, Christopher Stuart # note, family name, given names format
+    affiliation: The University of Manchester
+    orcid: 0000-0002-5574-6833
+  - name: Zeng, Xiaohan # note, family name, given names format
+    affiliation: The University of Manchester
+    orcid: 0000-0001-7074-9621
+  # - name: Michalik, Štefan # note, family name, given names format
+  #   affiliation: Diamond Light Source Ltd.
+  #   orcid: 0000-0001-9459-322X #<-- Issue with X in ORCID number!
+  # - name: Quinta da Fonseca, João # note, family name, given names format
+  #   affiliation: The Univeristy of Manchester
+  #   orcid: 0000-0001-6063-8135
+  access_right: open # note, lower case
+  # choose from Open, Embargoed, Restricted, Closed
+  license: CC-BY-4.0
+  communities: 
+  - identifier: lightform #<-- TEMP lightform community not set up on sandbox!
+  grants:
+  - id: 10.13039/501100000690::EP/R001715/1

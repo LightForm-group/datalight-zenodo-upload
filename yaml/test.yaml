@@ -1,0 +1,25 @@
+config_path: "datalight_sandbox.txt"
+deposit_ID: False 
+# set to False for new upload
+file_paths:
+  - test.txt
+repository_metadata:
+  title: Title
+  description: "Description."
+  keywords: [metal, microstructure]
+  upload_type: dataset # note, lower case
+  # choose from publication, poster, presentation, dataset, image, video/audio, software, lesson, physical object, workflow, other
+  creators:
+  - name: Daniel, Christopher Stuart # note, family name, given names format
+    affiliation: The University of Manchester
+    orcid: 0000-0002-5574-6833
+  - name: Quinta da Fonseca, João # note, family name, given names format
+    affiliation: The Univeristy of Manchester
+    orcid: 0000-0001-6063-8135
+  access_right: open # note, lower case
+  # choose from open, embargoed, restricted, closed
+  license: CC-BY-4.0
+  # communities:
+  # - identifier: lightform #<-- TEMP lightform community not set up on sandbox!
+  grants:
+  - id: 10.13039/501100000690::EP/R001715/1
